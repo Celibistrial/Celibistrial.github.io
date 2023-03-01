@@ -14,76 +14,30 @@
 <div id="content" class="content">
 <h1 class="title">Celibistrial's Website</h1>
 
-<div id="outline-container-org4c9efed" class="outline-2">
-<h2 id="org4c9efed">Hello there!</h2>
-<div class="outline-text-2" id="text-org4c9efed">
+<div id="outline-container-org71ad229" class="outline-2">
+<h2 id="org71ad229">Hello there!</h2>
+<div class="outline-text-2" id="text-org71ad229">
 <p>
 Hello there , you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
-</div>
 
-
-<div id="outline-container-orgfe27bb9" class="outline-2">
-<h2 id="orgfe27bb9">My projects</h2>
-<div class="outline-text-2" id="text-orgfe27bb9">
-</div>
-<div id="outline-container-org0abb10c" class="outline-3">
-<h3 id="org0abb10c"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h3>
-<div class="outline-text-3" id="text-org0abb10c">
+<div id="outline-container-org791f55d" class="outline-4">
+<h4 id="org791f55d"><code>Introduction</code></h4>
+<div class="outline-text-4" id="text-org791f55d">
 <p>
-This is my most popular project with over <code>55k</code> downloads.
-</p>
-
-<p>
-It is a Minecraft mod which allows you to "move your head without changing the direction in which you are going"
-</p>
-</div>
-</div>
-<div id="outline-container-org633eb00" class="outline-3">
-<h3 id="org633eb00"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h3>
-<div class="outline-text-3" id="text-org633eb00">
-<p>
-Currently a <b>WIP</b>
-</p>
-
-<p>
-Aims to recreate the windows clipboard manager on UNIX systems (when i first switched to arch , the lack of a good and lightweight clipboard manager was one of the biggest issues i faced)
-</p>
-</div>
-</div>
-
-<div id="outline-container-org2e91228" class="outline-3">
-<h3 id="org2e91228"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h3>
-<div class="outline-text-3" id="text-org2e91228">
-<p>
-An abandoned project(might work on it in the future if i feel like  it)
-</p>
-
-<p>
-Tried to write a tui in rust for discord(i quickly learnt its <code>very</code> hard to write UI's)
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgae7454a" class="outline-3">
-<h3 id="orgae7454a"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h3>
-<div class="outline-text-3" id="text-orgae7454a">
-<p>
-Also a minecraft mod which removes friction from minecraft(basically works like a hack lol)
+I use arch linux and Emacs , that's all you have to know about me 🦆:
 </p>
 </div>
 </div>
 </div>
-
-<div id="outline-container-org996308f" class="outline-2">
-<h2 id="org996308f">Peculiar Articles</h2>
-<div class="outline-text-2" id="text-org996308f">
-<p>
-<a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a>
-</p>
+<div id="outline-container-org734f1a1" class="outline-2">
+<h2 id="org734f1a1"><a href="My projects.html">My Projects</a></h2>
 </div>
+
+<div id="outline-container-org9aff7af" class="outline-2">
+<h2 id="org9aff7af"><a href="peculiar articles.html">Peculiar Articles</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
