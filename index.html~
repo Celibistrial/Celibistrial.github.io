@@ -6,7 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Celibistrial's Website</title>
-<meta name="author" content="celibistrial" />
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
@@ -14,34 +13,33 @@
 <div id="content" class="content">
 <h1 class="title">Celibistrial's Website</h1>
 
-<div id="outline-container-orgbea02ad" class="outline-2">
-<h2 id="orgbea02ad">Hello there!</h2>
-<div class="outline-text-2" id="text-orgbea02ad">
+<div id="outline-container-org0dfa6dc" class="outline-2">
+<h2 id="org0dfa6dc">Hello there!</h2>
+<div class="outline-text-2" id="text-org0dfa6dc">
 <p>
 Hello there , you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
 
-<div id="outline-container-org20c2b5e" class="outline-3">
-<h3 id="org20c2b5e"><code>Introduction</code></h3>
-<div class="outline-text-3" id="text-org20c2b5e">
+<div id="outline-container-orga92eb90" class="outline-3">
+<h3 id="orga92eb90"><code>Introduction</code></h3>
+<div class="outline-text-3" id="text-orga92eb90">
 <p>
-I use arch linux and Emacs , that's all you have to know about me 🦆:
+I use arch linux and Emacs , that's all you have to know about me 🦆
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org1c58ded" class="outline-2">
-<h2 id="org1c58ded"><a href="My projects.html">My Projects</a></h2>
+<div id="outline-container-org226dafd" class="outline-2">
+<h2 id="org226dafd"><a href="My projects.html">My Projects</a></h2>
 </div>
 
-<div id="outline-container-org878ba06" class="outline-2">
-<h2 id="org878ba06"><a href="peculiar articles.html">Peculiar Articles</a></h2>
+<div id="outline-container-orgecdaa1d" class="outline-2">
+<h2 id="orgecdaa1d"><a href="peculiar articles.html">Peculiar Articles</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: celibistrial</p>
 <p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
 </div>
 </body>
