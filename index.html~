@@ -13,9 +13,9 @@
 <div id="content" class="content">
 <h1 class="title">Celibistrial's Website</h1>
 
-<div id="outline-container-org97da4e7" class="outline-2">
-<h2 id="org97da4e7">Hello there!</h2>
-<div class="outline-text-2" id="text-org97da4e7">
+<div id="outline-container-org482425d" class="outline-2">
+<h2 id="org482425d">Hello there!</h2>
+<div class="outline-text-2" id="text-org482425d">
 <p>
 Hello there , you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
@@ -24,13 +24,13 @@ This <span class="underline">website</span> is <b>completely</b> written with <a
 </div>
 
 
-<div id="outline-container-orga29a0a3" class="outline-2">
-<h2 id="orga29a0a3">My projects</h2>
-<div class="outline-text-2" id="text-orga29a0a3">
+<div id="outline-container-orge17a93e" class="outline-2">
+<h2 id="orge17a93e">My projects</h2>
+<div class="outline-text-2" id="text-orge17a93e">
 </div>
-<div id="outline-container-org0b9e12e" class="outline-3">
-<h3 id="org0b9e12e"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h3>
-<div class="outline-text-3" id="text-org0b9e12e">
+<div id="outline-container-orgf189627" class="outline-3">
+<h3 id="orgf189627"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h3>
+<div class="outline-text-3" id="text-orgf189627">
 <p>
 This is my most popular project with over <code>55k</code> downloads.
 </p>
@@ -40,9 +40,9 @@ It is a Minecraft mod which allows you to "move your head without changing the d
 </p>
 </div>
 </div>
-<div id="outline-container-org089e530" class="outline-3">
-<h3 id="org089e530"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h3>
-<div class="outline-text-3" id="text-org089e530">
+<div id="outline-container-org7d5dffd" class="outline-3">
+<h3 id="org7d5dffd"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h3>
+<div class="outline-text-3" id="text-org7d5dffd">
 <p>
 Currently a <b>WIP</b>
 </p>
@@ -53,9 +53,9 @@ Aims to recreate the windows clipboard manager on UNIX systems (when i first swi
 </div>
 </div>
 
-<div id="outline-container-orge64f995" class="outline-3">
-<h3 id="orge64f995"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h3>
-<div class="outline-text-3" id="text-orge64f995">
+<div id="outline-container-orgc5709e5" class="outline-3">
+<h3 id="orgc5709e5"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h3>
+<div class="outline-text-3" id="text-orgc5709e5">
 <p>
 An abandoned project(might work on it in the future if i feel like  it)
 </p>
@@ -66,13 +66,22 @@ Tried to write a tui in rust for discord(i quickly learnt its <code>very</code> 
 </div>
 </div>
 
-<div id="outline-container-orgfbddc1b" class="outline-3">
-<h3 id="orgfbddc1b"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h3>
-<div class="outline-text-3" id="text-orgfbddc1b">
+<div id="outline-container-orga0de7aa" class="outline-3">
+<h3 id="orga0de7aa"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h3>
+<div class="outline-text-3" id="text-orga0de7aa">
 <p>
 Also a minecraft mod which removes friction from minecraft(basically works like a hack lol)
 </p>
 </div>
+</div>
+</div>
+
+<div id="outline-container-org34e8501" class="outline-2">
+<h2 id="org34e8501">Peculiar Articles</h2>
+<div class="outline-text-2" id="text-org34e8501">
+<p>
+<a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a>
+</p>
 </div>
 </div>
 </div>
