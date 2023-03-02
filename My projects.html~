@@ -16,17 +16,17 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgec13734">Freelook</a></li>
-<li><a href="#org1989817">Celiboard</a></li>
-<li><a href="#org9e738e5">Discord TUI</a></li>
-<li><a href="#org143a88d">Frictionless</a></li>
+<li><a href="#orga87fe19">Freelook</a></li>
+<li><a href="#org1ab9af5">Celiboard</a></li>
+<li><a href="#orgdda2101">Discord TUI</a></li>
+<li><a href="#org0c24ae2">Frictionless</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgec13734" class="outline-2">
-<h2 id="orgec13734"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h2>
-<div class="outline-text-2" id="text-orgec13734">
+<div id="outline-container-orga87fe19" class="outline-2">
+<h2 id="orga87fe19"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h2>
+<div class="outline-text-2" id="text-orga87fe19">
 <p>
 This is my most popular project with over <code>55k</code> downloads.
 </p>
@@ -36,9 +36,9 @@ It is a Minecraft mod which allows you to "move your head without changing the d
 </p>
 </div>
 </div>
-<div id="outline-container-org1989817" class="outline-2">
-<h2 id="org1989817"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h2>
-<div class="outline-text-2" id="text-org1989817">
+<div id="outline-container-org1ab9af5" class="outline-2">
+<h2 id="org1ab9af5"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h2>
+<div class="outline-text-2" id="text-org1ab9af5">
 <p>
 Currently a <b>WIP</b>
 </p>
@@ -49,9 +49,9 @@ Aims to recreate the windows clipboard manager on UNIX systems (when i first swi
 </div>
 </div>
 
-<div id="outline-container-org9e738e5" class="outline-2">
-<h2 id="org9e738e5"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h2>
-<div class="outline-text-2" id="text-org9e738e5">
+<div id="outline-container-orgdda2101" class="outline-2">
+<h2 id="orgdda2101"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h2>
+<div class="outline-text-2" id="text-orgdda2101">
 <p>
 An abandoned project(might work on it in the future if i feel like  it)
 </p>
@@ -62,9 +62,9 @@ Tried to write a tui in rust for discord(i quickly learnt its <code>very</code> 
 </div>
 </div>
 
-<div id="outline-container-org143a88d" class="outline-2">
-<h2 id="org143a88d"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h2>
-<div class="outline-text-2" id="text-org143a88d">
+<div id="outline-container-org0c24ae2" class="outline-2">
+<h2 id="org0c24ae2"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h2>
+<div class="outline-text-2" id="text-org0c24ae2">
 <p>
 Also a minecraft mod which removes friction from minecraft(basically works like a hack lol)
 </p>

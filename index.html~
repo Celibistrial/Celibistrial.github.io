@@ -16,41 +16,41 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orga56b93d">Hello there!</a>
+<li><a href="#org3d4a598">Hello there!</a>
 <ul>
-<li><a href="#orge96fcbb"><code>Introduction</code></a></li>
+<li><a href="#org204d5c9"><code>Introduction</code></a></li>
 </ul>
 </li>
-<li><a href="#org9d488e2">My Projects</a></li>
-<li><a href="#org3032893">Peculiar Articles</a></li>
+<li><a href="#org5c8f988">My Projects</a></li>
+<li><a href="#orgcd255ee">Peculiar Articles</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga56b93d" class="outline-2">
-<h2 id="orga56b93d">Hello there!</h2>
-<div class="outline-text-2" id="text-orga56b93d">
+<div id="outline-container-org3d4a598" class="outline-2">
+<h2 id="org3d4a598">Hello there!</h2>
+<div class="outline-text-2" id="text-org3d4a598">
 <p>
 Hello there , you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
 
-<div id="outline-container-orge96fcbb" class="outline-3">
-<h3 id="orge96fcbb"><code>Introduction</code></h3>
-<div class="outline-text-3" id="text-orge96fcbb">
+<div id="outline-container-org204d5c9" class="outline-3">
+<h3 id="org204d5c9"><code>Introduction</code></h3>
+<div class="outline-text-3" id="text-org204d5c9">
 <p>
 I use arch linux and Emacs , that's all you have to know about me 🦆
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org9d488e2" class="outline-2">
-<h2 id="org9d488e2"><a href="My projects.html">My Projects</a></h2>
+<div id="outline-container-org5c8f988" class="outline-2">
+<h2 id="org5c8f988"><a href="My projects.html">My Projects</a></h2>
 </div>
 
-<div id="outline-container-org3032893" class="outline-2">
-<h2 id="org3032893"><a href="peculiar articles.html">Peculiar Articles</a></h2>
+<div id="outline-container-orgcd255ee" class="outline-2">
+<h2 id="orgcd255ee"><a href="peculiar articles.html">Peculiar Articles</a></h2>
 </div>
 </div>
 </body>
