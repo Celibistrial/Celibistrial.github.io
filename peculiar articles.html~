@@ -12,22 +12,35 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">Peculiar Articles</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org4497795">Articles i found interesting</a>
+<ul>
+<li><a href="#orgdb4b2d7">Grilled cheese Obama sandwich​</a></li>
+<li><a href="#orgfc15610">Toothpicks save lives</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 
-<div id="outline-container-orga2e3717" class="outline-2">
-<h2 id="orga2e3717">Articles i found interesting</h2>
-<div class="outline-text-2" id="text-orga2e3717">
+<div id="outline-container-org4497795" class="outline-2">
+<h2 id="org4497795">Articles i found interesting</h2>
+<div class="outline-text-2" id="text-org4497795">
 <p>
 Most of these articles are either written by me or ai generated
 </p>
 </div>
 
-<div id="outline-container-org3706c58" class="outline-3">
-<h3 id="org3706c58"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
+<div id="outline-container-orgdb4b2d7" class="outline-3">
+<h3 id="orgdb4b2d7"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
+</div>
+<div id="outline-container-orgfc15610" class="outline-3">
+<h3 id="orgfc15610"><a href="toothpick.html">Toothpicks save lives</a></h3>
 </div>
 </div>
-</div>
-<div id="postamble" class="status">
-<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
 </div>
 </body>
 </html>

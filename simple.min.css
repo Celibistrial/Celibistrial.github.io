@@ -78,6 +78,7 @@ body > header p {
 main {
   padding-top: 1.5rem;
 }
+
 body > footer {
   margin-top: 4rem;
   padding: 2rem 1rem 1.5rem 1rem;
@@ -86,6 +87,7 @@ body > footer {
   text-align: center;
   border-top: 1px solid var(--border);
 }
+
 h1 {
   font-size: 3rem;
 }
@@ -514,3 +516,25 @@ progress::-moz-progress-bar {
 progress:indeterminate::-moz-progress-bar {
   background-color: var(--accent-bg);
 }
+
+#table-of-contents{
+    position:fixed;
+    top:0;
+    left:0;
+    width:300px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    height:100%;
+    background: var(--accent-bg);
+    z-index:200;
+}
+
+#table-of-contents h2{
+    z-index:200;
+    background-color: var(--accent-bg);
+    text-align:center;
+    padding:0.809em;
+    display:block;
+    color:#fcfcfc;
+    font-size: 100%;
+    margin-bottom:0.809em}
