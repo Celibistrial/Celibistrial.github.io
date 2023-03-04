@@ -5,38 +5,57 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Celibistrial's Website</title>
+<title>Hello there!</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="simple.min.css" />
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">Celibistrial's Website</h1>
 
-<div id="outline-container-orgcf342ca" class="outline-2">
-<h2 id="orgcf342ca">Hello there!</h2>
-<div class="outline-text-2" id="text-orgcf342ca">
+
+<div id="outline-container-orgf6a6e58" class="outline-2">
+<h2 id="orgf6a6e58">Hello there 👋</h2>
+<div class="outline-text-2" id="text-orgf6a6e58">
 <p>
 Hello there , you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
-
-<div id="outline-container-org4642e04" class="outline-3">
-<h3 id="org4642e04"><code>Introduction</code></h3>
-<div class="outline-text-3" id="text-org4642e04">
-<p>
-I use arch linux and Emacs , that's all you have to know about me 🦆
-</p>
 </div>
-</div>
-</div>
-<div id="outline-container-org3bfd0ab" class="outline-2">
-<h2 id="org3bfd0ab"><a href="My projects.html">My Projects</a></h2>
+<div id="outline-container-orgb7a27e3" class="outline-2">
+<h2 id="orgb7a27e3"><a href="My projects.html">My Projects</a></h2>
 </div>
 
-<div id="outline-container-org1cf8f0e" class="outline-2">
-<h2 id="org1cf8f0e"><a href="peculiar articles.html">Peculiar Articles</a></h2>
+<div id="outline-container-orga4aec05" class="outline-2">
+<h2 id="orga4aec05"><a href="peculiar articles.html">Peculiar Articles</a></h2>
+<div class="outline-text-2" id="text-orga4aec05">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+ <style type ="text/css" >
+   .footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+</style>
+</head>
+
+<body>
+    <font size="-1">
+	    <div class="footer"></div>
+            <center>
+                <a href="index.html">Go to home page</a>
+            </center>
+	    </div>
+    </font>
+</body>
+
+</html>
+</div>
 </div>
 </div>
 </body>

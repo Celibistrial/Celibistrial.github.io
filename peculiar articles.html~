@@ -13,19 +13,47 @@
 <div id="content" class="content">
 <h1 class="title">Peculiar Articles</h1>
 
-<div id="outline-container-org190213f" class="outline-2">
-<h2 id="org190213f">Articles i found interesting</h2>
-<div class="outline-text-2" id="text-org190213f">
+<div id="outline-container-org487bcb0" class="outline-2">
+<h2 id="org487bcb0">Articles i found interesting</h2>
+<div class="outline-text-2" id="text-org487bcb0">
 <p>
 Most of these articles are either written by me or ai generated
 </p>
 </div>
 
-<div id="outline-container-org310e8e5" class="outline-3">
-<h3 id="org310e8e5"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
+<div id="outline-container-orgbdb9223" class="outline-3">
+<h3 id="orgbdb9223"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
 </div>
-<div id="outline-container-orgd578008" class="outline-3">
-<h3 id="orgd578008"><a href="toothpick.html">Toothpicks save lives</a></h3>
+<div id="outline-container-org5774c97" class="outline-3">
+<h3 id="org5774c97"><a href="toothpick.html">Toothpicks save lives</a></h3>
+<div class="outline-text-3" id="text-org5774c97">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+ <style type ="text/css" >
+   .footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+</style>
+</head>
+
+<body>
+    <font size="-1">
+	    <div class="footer"></div>
+            <center>
+                <a href="index.html">Go to home page</a>
+            </center>
+	    </div>
+    </font>
+</body>
+
+</html>
+</div>
 </div>
 </div>
 </div>
