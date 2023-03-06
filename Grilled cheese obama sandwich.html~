@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Grilled Cheese Obama Sandwich</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="simple.min.css" />
 </head>
 <body>
+<div id="preamble" class="status">
+<script type="text/javascript"> function goBack() {window.history.back();}</script>
+</div>
 <div id="content" class="content">
 <h1 class="title">Grilled Cheese Obama Sandwich</h1>
 <p>
@@ -58,6 +59,22 @@ Overall, the "Grilled Cheese Obama Sandwich" video was a fascinating experience 
 </body>
 
 </html>
+</div>
+<div id="postamble" class="status">
+
+<div class="navigation">
+<font size="-1">
+	    <div class="footer"></div>
+            <center>
+
+  <button onclick="goBack()">Previous Page</button>
+<button onclick="location.href='./index.html'">Home</button>
+
+
+            </center>
+	    </div>
+    </font>
+</div>
 </div>
 </body>
 </html>

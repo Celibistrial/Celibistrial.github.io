@@ -1,20 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>And Thems The Facts</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="simple.min.css" />
 </head>
 <body>
+<div id="preamble" class="status">
+<script type="text/javascript"> function goBack() {window.history.back();}</script>
+</div>
 <div id="content" class="content">
 
-<div id="outline-container-orgc997905" class="outline-2">
-<h2 id="orgc997905">The best conclusion to a passage</h2>
-<div class="outline-text-2" id="text-orgc997905">
+<div id="outline-container-org5a42836" class="outline-2">
+<h2 id="org5a42836">The best conclusion to a passage</h2>
+<div class="outline-text-2" id="text-org5a42836">
 <blockquote>
 <p>
 "and thems the facts"
@@ -38,6 +39,22 @@ And so, embracing this novel colloquialism, I began to endow my speech and writi
 In conclusion? Nay, I shan't resort to such hackneyed verbiage. I leave you with this indelible maxim: And thems the facts, fellow humans.
 </p>
 </div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<div class="navigation">
+<font size="-1">
+	    <div class="footer"></div>
+            <center>
+
+  <button onclick="goBack()">Previous Page</button>
+<button onclick="location.href='./index.html'">Home</button>
+
+
+            </center>
+	    </div>
+    </font>
 </div>
 </div>
 </body>

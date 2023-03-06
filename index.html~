@@ -1,32 +1,36 @@
-html
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Hello there!</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="simple.min.css" />
 </head>
 <body>
+<div id="preamble" class="status">
+<script type="text/javascript"> function goBack() {window.history.back();}</script>
+</div>
 <div id="content" class="content">
+<!DOCTYPE html>
+<html lang="en">
 
-
-<div id="outline-container-org52e11f9" class="outline-2">
-<h2 id="org52e11f9">Hello there 👋</h2>
-<div class="outline-text-2" id="text-org52e11f9">
+<div id="outline-container-orgeac126a" class="outline-2">
+<h2 id="orgeac126a">Hello there 👋</h2>
+<div class="outline-text-2" id="text-orgeac126a">
 <p>
 Hello there , I am Celi, you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org667ccb9" class="outline-2">
-<h2 id="org667ccb9"><a href="My projects.html">My Projects</a></h2>
+<div id="outline-container-org5344490" class="outline-2">
+<h2 id="org5344490"><a href="My projects.html">My Projects</a></h2>
 </div>
 
-<div id="outline-container-org6de91e2" class="outline-2">
-<h2 id="org6de91e2"><a href="peculiar articles.html">Peculiar Articles</a></h2>
-<div class="outline-text-2" id="text-org6de91e2">
+<div id="outline-container-org1f443cd" class="outline-2">
+<h2 id="org1f443cd"><a href="peculiar articles.html">Peculiar Articles</a></h2>
+<div class="outline-text-2" id="text-org1f443cd">
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,6 +58,22 @@ This <span class="underline">website</span> is <b>completely</b> written with <a
 
 </html>
 </div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<div class="navigation">
+<font size="-1">
+	    <div class="footer"></div>
+            <center>
+
+  <button onclick="goBack()">Previous Page</button>
+<button onclick="location.href='./index.html'">Home</button>
+
+
+            </center>
+	    </div>
+    </font>
 </div>
 </div>
 </body>

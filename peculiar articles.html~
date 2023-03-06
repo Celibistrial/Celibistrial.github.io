@@ -1,35 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Peculiar Articles</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" href="simple.min.css" />
 </head>
 <body>
+<div id="preamble" class="status">
+<script type="text/javascript"> function goBack() {window.history.back();}</script>
+</div>
 <div id="content" class="content">
 <h1 class="title">Peculiar Articles</h1>
 
-<div id="outline-container-org64858f9" class="outline-2">
-<h2 id="org64858f9">Articles i found interesting</h2>
-<div class="outline-text-2" id="text-org64858f9">
+<div id="outline-container-orga977a87" class="outline-2">
+<h2 id="orga977a87">Articles i found interesting</h2>
+<div class="outline-text-2" id="text-orga977a87">
 <p>
 Most of these articles are either written by me or ai generated
 </p>
 </div>
 
-<div id="outline-container-org3587418" class="outline-3">
-<h3 id="org3587418"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
+<div id="outline-container-orgd93cdd1" class="outline-3">
+<h3 id="orgd93cdd1"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
 </div>
-<div id="outline-container-org10e9cae" class="outline-3">
-<h3 id="org10e9cae"><a href="toothpick.html">Toothpicks save lives</a></h3>
+<div id="outline-container-orgb8ba74c" class="outline-3">
+<h3 id="orgb8ba74c"><a href="toothpick.html">Toothpicks save lives</a></h3>
 </div>
-<div id="outline-container-org8baf878" class="outline-3">
-<h3 id="org8baf878"><a href="And thems the facts.html">And thems the facts</a></h3>
-<div class="outline-text-3" id="text-org8baf878">
+<div id="outline-container-orgf105b01" class="outline-3">
+<h3 id="orgf105b01"><a href="And thems the facts.html">And thems the facts</a></h3>
+<div class="outline-text-3" id="text-orgf105b01">
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,6 +59,22 @@ Most of these articles are either written by me or ai generated
 </html>
 </div>
 </div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<div class="navigation">
+<font size="-1">
+	    <div class="footer"></div>
+            <center>
+
+  <button onclick="goBack()">Previous Page</button>
+<button onclick="location.href='./index.html'">Home</button>
+
+
+            </center>
+	    </div>
+    </font>
 </div>
 </div>
 </body>
