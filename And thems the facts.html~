@@ -13,9 +13,9 @@
 </div>
 <div id="content" class="content">
 
-<div id="outline-container-org111f826" class="outline-2">
-<h2 id="org111f826">The best conclusion to a passage</h2>
-<div class="outline-text-2" id="text-org111f826">
+<div id="outline-container-org104bf31" class="outline-2">
+<h2 id="org104bf31">The best conclusion to a passage</h2>
+<div class="outline-text-2" id="text-org104bf31">
 <blockquote>
 <p>
 "and thems the facts"
@@ -48,8 +48,7 @@ In conclusion? Nay, I shan't resort to such hackneyed verbiage. I leave you with
 	    <div class="footer"></div>
             <center>
 
-  <button onclick="goBack()">Previous Page</button>
-<button onclick="location.href='./index.html'">Home</button>
+<a href="index.html">Go to home page</a>
 
 
             </center>

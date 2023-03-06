@@ -14,22 +14,21 @@
 <div id="content" class="content">
 <h1 class="title">Peculiar Articles</h1>
 
-<div id="outline-container-orga161b29" class="outline-2">
-<h2 id="orga161b29">Articles i found interesting</h2>
-<div class="outline-text-2" id="text-orga161b29">
+<div id="outline-container-org013818b" class="outline-2">
+<h2 id="org013818b">Articles i found interesting</h2>
+<div class="outline-text-2" id="text-org013818b">
 <p>
 Most of these articles are either written by me or ai generated
 </p>
-</div>
+<pre class="example" id="orgade944e">
 
-<div id="outline-container-orgde612f6" class="outline-3">
-<h3 id="orgde612f6"><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></h3>
-</div>
-<div id="outline-container-org630f68b" class="outline-3">
-<h3 id="org630f68b"><a href="toothpick.html">Toothpicks save lives</a></h3>
-</div>
-<div id="outline-container-org36d31a6" class="outline-3">
-<h3 id="org36d31a6"><a href="And thems the facts.html">And thems the facts</a></h3>
++ [[file:Adult vs 7 year olds.org][You vs children(a fight to the death)]]
+</pre>
+<ul class="org-ul">
+<li><a href="And thems the facts.html">And thems the facts</a></li>
+<li><a href="toothpick.html">Toothpicks save lives</a></li>
+<li><a href="Grilled cheese obama sandwich.html">Grilled cheese Obama sandwich​</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -40,8 +39,7 @@ Most of these articles are either written by me or ai generated
 	    <div class="footer"></div>
             <center>
 
-  <button onclick="goBack()">Previous Page</button>
-<button onclick="location.href='./index.html'">Home</button>
+<a href="index.html">Go to home page</a>
 
 
             </center>
