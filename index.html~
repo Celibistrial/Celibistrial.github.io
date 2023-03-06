@@ -15,49 +15,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<div id="outline-container-orgeac126a" class="outline-2">
-<h2 id="orgeac126a">Hello there 👋</h2>
-<div class="outline-text-2" id="text-orgeac126a">
+<div id="outline-container-org9c2b67b" class="outline-2">
+<h2 id="org9c2b67b">Hello there 👋</h2>
+<div class="outline-text-2" id="text-org9c2b67b">
 <p>
 Hello there , I am Celi, you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org5344490" class="outline-2">
-<h2 id="org5344490"><a href="My projects.html">My Projects</a></h2>
+<div id="outline-container-org21a1f0c" class="outline-2">
+<h2 id="org21a1f0c"><a href="My projects.html">My Projects</a></h2>
 </div>
 
-<div id="outline-container-org1f443cd" class="outline-2">
-<h2 id="org1f443cd"><a href="peculiar articles.html">Peculiar Articles</a></h2>
-<div class="outline-text-2" id="text-org1f443cd">
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
- <style type ="text/css" >
-   .footer{ 
-       position: fixed;     
-       text-align: center;    
-       bottom: 0px; 
-       width: 100%;
-   }  
-</style>
-</head>
-
-<body>
-    <font size="-1">
-	    <div class="footer"></div>
-            <center>
-                <a href="index.html">Go to home page</a>
-            </center>
-	    </div>
-    </font>
-</body>
-
-</html>
-</div>
+<div id="outline-container-orga1a196a" class="outline-2">
+<h2 id="orga1a196a"><a href="peculiar articles.html">Peculiar Articles</a></h2>
 </div>
 </div>
 <div id="postamble" class="status">
