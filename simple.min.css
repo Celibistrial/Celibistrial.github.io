@@ -90,7 +90,7 @@ table {
 	:root {
 		color-scheme: dark;
 		--accent-bg: #2b2b2b;
-        --bg: linear-gradient(90deg, rgba(18,24,27,1) 0%, rgba(31,38,53,1) 80%);
+        --bg: #212121;
 		--text: #dcdcdc;
 		--text-light: #ababab;
 		--accent: #ffb300;
