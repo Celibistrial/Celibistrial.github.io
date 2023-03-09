@@ -89,7 +89,8 @@ table {
 @media (prefers-color-scheme:dark) {
 	:root {
 		color-scheme: dark;
-		--accent-bg: #2b2b2b;
+		/* --accent-bg: #2b2b2b; */
+		--accent-bg: #282b2e;
         --bg: #212121;
 		--text: #dcdcdc;
 		--text-light: #ababab;

@@ -10,13 +10,15 @@
 <body>
 <div id="preamble" class="status">
 <script type="text/javascript"> function goBack() {window.history.back();}</script>
+<link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 </div>
 <div id="content" class="content">
 <h1 class="title">Peculiar Articles</h1>
 
-<div id="outline-container-org76eff66" class="outline-2">
-<h2 id="org76eff66">Articles i found interesting</h2>
-<div class="outline-text-2" id="text-org76eff66">
+<div id="outline-container-orgee25d99" class="outline-2">
+<h2 id="orgee25d99">Articles i found interesting</h2>
+<div class="outline-text-2" id="text-orgee25d99">
 <blockquote>
 <p>
 Articles written by me or chatGPT
@@ -39,8 +41,7 @@ Articles written by me or chatGPT
             <center>
 
 <a href="index.html">Go to home page</a>
-
-
+<script>hljs.highlightAll();</script>
             </center>
 	    </div>
     </font>

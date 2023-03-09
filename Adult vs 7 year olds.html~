@@ -31,16 +31,18 @@
 <body>
 <div id="preamble" class="status">
 <script type="text/javascript"> function goBack() {window.history.back();}</script>
+<link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 </div>
 <div id="content" class="content">
 
-<div id="outline-container-orgfaf07e2" class="outline-2">
-<h2 id="orgfaf07e2">How many children can an adult(you) fight at once</h2>
-<div class="outline-text-2" id="text-orgfaf07e2">
+<div id="outline-container-org3a9e492" class="outline-2">
+<h2 id="org3a9e492">How many children can an adult(you) fight at once</h2>
+<div class="outline-text-2" id="text-org3a9e492">
 </div>
-<div id="outline-container-org2ca743d" class="outline-3">
-<h3 id="org2ca743d">The assumptions</h3>
-<div class="outline-text-3" id="text-org2ca743d">
+<div id="outline-container-org3d74c12" class="outline-3">
+<h3 id="org3d74c12">The assumptions</h3>
+<div class="outline-text-3" id="text-org3d74c12">
 <ul class="org-ul">
 <li>Adult is under 25 (he is at peak condition with no disabilities or crippling diseases)</li>
 <li>The children are below 12 years</li>
@@ -52,9 +54,9 @@
 </div>
 
 
-<div id="outline-container-orgf8d8cf1" class="outline-3">
-<h3 id="orgf8d8cf1">How most people think the fight would play out</h3>
-<div class="outline-text-3" id="text-orgf8d8cf1">
+<div id="outline-container-org0bc5c8a" class="outline-3">
+<h3 id="org0bc5c8a">How most people think the fight would play out</h3>
+<div class="outline-text-3" id="text-org0bc5c8a">
 <blockquote>
 <p>
 "Yeah i could probably take on 20-30 kids at once , what are they going to do? I am much stronger than them and could probably knock each one out with a single punch"
@@ -63,9 +65,9 @@
 </div>
 </div>
 
-<div id="outline-container-org5f940a1" class="outline-3">
-<h3 id="org5f940a1">How the fight would probably play out</h3>
-<div class="outline-text-3" id="text-org5f940a1">
+<div id="outline-container-orgeed6af0" class="outline-3">
+<h3 id="orgeed6af0">How the fight would probably play out</h3>
+<div class="outline-text-3" id="text-orgeed6af0">
 <p>
 Since we are working with the assumption that all the kids will attack you at once and have no regard for their lives , it is safe to say that you would start struggling to fight more than 10 kids at once.
 </p>
@@ -79,14 +81,14 @@ It is important to keep in mind that while you are much stronger than the kids ,
 </p>
 
 <p>
-Another thing to keep in mind is that <code>children can easily bite flesh off of a human</code>. So if these kids happen to surround you , you have probably already lost the fight . A group of kids (10+) could easily get behind you and bite your calves or hands and while they may not be able to rip it off completely , they will still inflict significant damage which would also reduce your fighting capabilities and you would also start losing blood.
+Another thing to keep in mind is that <b>children can easily bite flesh off of a human</b>. So if these kids happen to surround you , you have probably already lost the fight . A group of kids (10+) could easily get behind you and bite your calves or hands and while they may not be able to rip it off completely , they will still inflict significant damage which would also reduce your fighting capabilities and you would also start losing blood.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgf5ff4d8" class="outline-3">
-<h3 id="orgf5ff4d8">Tips to fight children</h3>
-<div class="outline-text-3" id="text-orgf5ff4d8">
+<div id="outline-container-org08daff2" class="outline-3">
+<h3 id="org08daff2">Tips to fight children</h3>
+<div class="outline-text-3" id="text-org08daff2">
 <ul class="org-ul">
 <li>Gauge your distance accurately and keep track of their positions</li>
 <li>Try going for punches to the stomach</li>
@@ -97,9 +99,9 @@ Another thing to keep in mind is that <code>children can easily bite flesh off o
 </div>
 
 
-<div id="outline-container-org959d8b2" class="outline-3">
-<h3 id="org959d8b2">Conclusion</h3>
-<div class="outline-text-3" id="text-org959d8b2">
+<div id="outline-container-org844214c" class="outline-3">
+<h3 id="org844214c">Conclusion</h3>
+<div class="outline-text-3" id="text-org844214c">
 <p>
 You could probably take on 10 kids at once but you will not emerge unharmed , and above 15 kids you stand no chance.
 </p>
@@ -115,8 +117,7 @@ You could probably take on 10 kids at once but you will not emerge unharmed , an
             <center>
 
 <a href="index.html">Go to home page</a>
-
-
+<script>hljs.highlightAll();</script>
             </center>
 	    </div>
     </font>

@@ -10,12 +10,14 @@
 <body>
 <div id="preamble" class="status">
 <script type="text/javascript"> function goBack() {window.history.back();}</script>
+<link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 </div>
 <div id="content" class="content">
 
-<div id="outline-container-org0c08b08" class="outline-2">
-<h2 id="org0c08b08">The best conclusion to a passage</h2>
-<div class="outline-text-2" id="text-org0c08b08">
+<div id="outline-container-orge531090" class="outline-2">
+<h2 id="orge531090">The best conclusion to a passage</h2>
+<div class="outline-text-2" id="text-orge531090">
 <blockquote>
 <p>
 "and thems the facts"
@@ -49,8 +51,7 @@ In conclusion? Nay, I shan't resort to such hackneyed verbiage. I leave you with
             <center>
 
 <a href="index.html">Go to home page</a>
-
-
+<script>hljs.highlightAll();</script>
             </center>
 	    </div>
     </font>
