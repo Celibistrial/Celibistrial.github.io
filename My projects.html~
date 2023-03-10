@@ -12,25 +12,26 @@
 <script type="text/javascript"> function goBack() {window.history.back();}</script>
 <link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/lisp.min.js"></script>
 </div>
 <div id="content" class="content">
 <h1 class="title">My Projects</h1>
 
-<div id="outline-container-org76555c7" class="outline-2">
-<h2 id="org76555c7"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h2>
-<div class="outline-text-2" id="text-org76555c7">
+<div id="outline-container-org8cc0aed" class="outline-2">
+<h2 id="org8cc0aed"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h2>
+<div class="outline-text-2" id="text-org8cc0aed">
 <p>
 This is my most popular project with over <code>55k</code> downloads.
 </p>
 
 <p>
-It is a Minecraft mod which allows you to "move your head without changing the direction in which you are going"
+It is a Minecraft mod which allows you to &ldquo;move your head without changing the direction in which you are going&rdquo;
 </p>
 </div>
 </div>
-<div id="outline-container-orgea80d66" class="outline-2">
-<h2 id="orgea80d66"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h2>
-<div class="outline-text-2" id="text-orgea80d66">
+<div id="outline-container-org712a809" class="outline-2">
+<h2 id="org712a809"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h2>
+<div class="outline-text-2" id="text-org712a809">
 <p>
 Currently a <b>WIP</b>
 </p>
@@ -41,22 +42,22 @@ Aims to recreate the windows clipboard manager on UNIX systems (when i first swi
 </div>
 </div>
 
-<div id="outline-container-orgac9a6cd" class="outline-2">
-<h2 id="orgac9a6cd"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h2>
-<div class="outline-text-2" id="text-orgac9a6cd">
+<div id="outline-container-org1707dde" class="outline-2">
+<h2 id="org1707dde"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h2>
+<div class="outline-text-2" id="text-org1707dde">
 <p>
 An abandoned project(might work on it in the future if i feel like  it)
 </p>
 
 <p>
-Tried to write a tui in rust for discord(i quickly learnt its <code>very</code> hard to write UI's)
+Tried to write a tui in rust for discord(i quickly learnt its <code>very</code> hard to write UI&rsquo;s)
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga457a52" class="outline-2">
-<h2 id="orga457a52"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h2>
-<div class="outline-text-2" id="text-orga457a52">
+<div id="outline-container-orgad67893" class="outline-2">
+<h2 id="orgad67893"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h2>
+<div class="outline-text-2" id="text-orgad67893">
 <p>
 Also a minecraft mod which removes friction from minecraft(basically works like a hack lol)
 </p>

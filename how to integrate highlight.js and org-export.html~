@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Making highlight.js work with org-export</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="simple.min.css" />
+</head>
+<body>
+<div id="preamble" class="status">
+<script type="text/javascript"> function goBack() {window.history.back();}</script>
+<link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/lisp.min.js"></script>
+</div>
+<div id="content" class="content">
+<h1 class="title">Making highlight.js work with org-export</h1>
+<blockquote>
+<p>
+Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It can work with pretty much any markup, doesn’t depend on any other frameworks, and has automatic language detection.
+</p>
+</blockquote>
+
+<div id="outline-container-org8f8a538" class="outline-2">
+<h2 id="org8f8a538">Intro</h2>
+<div class="outline-text-2" id="text-org8f8a538">
+<p>
+Org-mode&rsquo;s most notable features is the ability to export content to different formats, including HTML, PDF, and LaTeX,but it has its limitations including the lack of syntax highlighting, which can make exported code blocks challenging to read.
+</p>
+
+<p>
+However, integrating <a href="https://highlightjs.org/">highlight.js</a> can solve this problem by adding color and emphasis to code blocks, making them more accessible and visually appealing.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7766e68" class="outline-2">
+<h2 id="org7766e68">Getting started</h2>
+<div class="outline-text-2" id="text-org7766e68">
+<p>
+I assume that you have already setup the org-publish-project-alist to export your <code>.org</code> files to <code>.html</code> files
+</p>
+
+<p>
+We will be modifying the <b>org-publish-project-alist</b> variable to bundle in highlight.js
+</p>
+</div>
+</div>
+
+<div id="outline-container-org876b2c0" class="outline-2">
+<h2 id="org876b2c0">Modifying org-publish-project-alist</h2>
+<div class="outline-text-2" id="text-org876b2c0">
+<p>
+Your org-publish-project-alist should look something like this
+</p>
+<div class="org-src-container">
+<pre><code class="elisp"><span style="color: #51afef;">(</span><span style="color: #51afef;">setq</span> <span style="color: #dcaeea;">org-publish-project-alist</span>
+      <span style="color: #c678dd;">(</span><span style="color: #a9a1e1;">list</span>
+       <span style="color: #98be65;">(</span><span style="color: #a9a1e1;">list</span> <span style="color: #98be65;">"celibistrial-website"</span>
+             <span style="color: #c678dd;">:recursive</span> t
+             <span style="color: #c678dd;">:auto-sitemap</span> t
+             <span style="color: #c678dd;">:base-directory</span> <span style="color: #98be65;">"~/org/celibistrial-website/content"</span>
+             <span style="color: #c678dd;">:publishing-function</span> <span style="color: #51afef;">'</span><span style="color: #ECBE7B;">org-html-publish-to-html</span>
+             <span style="color: #c678dd;">:publishing-directory</span> <span style="color: #98be65;">"~/org/celibistrial-website/public"</span>
+             <span style="color: #c678dd;">:with-author</span> nil
+             <span style="color: #c678dd;">:footnote-section-p</span> t
+             <span style="color: #c678dd;">:html-footnotes-section</span> t
+             <span style="color: #c678dd;">:html-doctype</span> <span style="color: #98be65;">"&lt;!doctype html&gt;"</span>
+            <span style="color: #c678dd;">:time-stamp-file</span> nil<span style="color: #98be65;">)</span><span style="color: #c678dd;">)</span><span style="color: #51afef;">)</span>
+</code></pre>
+</div>
+
+<p>
+To bundle highlight.js simply add these 2 lines
+</p>
+<div class="org-src-container">
+<pre><code class="elisp">             <span style="color: #c678dd;">:html-preamble</span> <span style="color: #98be65;">"</span>
+<span style="color: #98be65;">&lt;link rel=\"stylesheet\" href=\"https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css\"&gt;</span>
+<span style="color: #98be65;">&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js\"&gt;&lt;/script&gt;</span>
+<span style="color: #98be65;">"</span>
+             <span style="color: #c678dd;">:html-postamble</span> <span style="color: #98be65;">"</span>
+<span style="color: #98be65;">&lt;script&gt;hljs.highlightAll();&lt;/script&gt;</span>
+<span style="color: #98be65;">"</span>
+</code></pre>
+</div>
+
+<p>
+The <code>:html-preamble</code> adds the HTML to the top of the document, the first line pulls in the CSS files required for highlight.js and the second line pulls the script
+</p>
+
+<p>
+Then at the end of the document (using <code>:html-postamble</code>) we call <code>hljs.highlightAll();</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbfb9c79" class="outline-2">
+<h2 id="orgbfb9c79">Modifying org-html-src-block</h2>
+<div class="outline-text-2" id="text-orgbfb9c79">
+<p>
+You may have tried using the above steps and are confused as to why highlight.js is not highlighting your code blocks.
+</p>
+
+<p>
+Well highlight.js expects code blocks in a specific format
+</p>
+<div class="org-src-container">
+<pre><code class="html">&lt;<span style="color: #c678dd;">pre</span>&gt;
+&lt;<span style="color: #c678dd;">code</span>&gt;
+  Code goes here
+&lt;/<span style="color: #c678dd;">code</span>&gt;
+&lt;/<span style="color: #c678dd;">pre</span>&gt;
+</code></pre>
+</div>
+
+<p>
+Highlight.js expects code blocks in the format specified above but by default org-export uses a different format
+</p>
+
+<p>
+Changing the format is simple
+</p>
+<div class="org-src-container">
+<pre><code class="elisp"><span style="color: #5B6268;">;; </span><span style="color: #5B6268;">I did not write this , i found it from a stackoverflow post but i am unable to find a link to it</span>
+ <span style="color: #51afef;">(</span><span style="color: #51afef;">defun</span> <span style="color: #c678dd;">my/org-html-src-block</span> <span style="color: #c678dd;">(</span>html<span style="color: #c678dd;">)</span>
+  <span style="color: #83898d;">"Modify the output of org-html-src-block for highlight.js"</span>
+  <span style="color: #c678dd;">(</span><span style="color: #a9a1e1;">replace-regexp-in-string</span>
+   <span style="color: #98be65;">"&lt;/pre&gt;"</span> <span style="color: #98be65;">"&lt;/code&gt;&lt;/pre&gt;"</span>
+   <span style="color: #98be65;">(</span><span style="color: #a9a1e1;">replace-regexp-in-string</span>
+    <span style="color: #98be65;">"&lt;pre class=\"src src-</span><span style="color: #51afef; font-weight: bold;">\\</span><span style="color: #51afef; font-weight: bold;">(</span><span style="color: #98be65;">.*</span><span style="color: #51afef; font-weight: bold;">\\</span><span style="color: #51afef; font-weight: bold;">)</span><span style="color: #98be65;">\"&gt;"</span>
+    <span style="color: #98be65;">"&lt;pre&gt;&lt;code class=\"\\1\"&gt;"</span>
+    html<span style="color: #98be65;">)</span><span style="color: #c678dd;">)</span><span style="color: #51afef;">)</span>
+
+<span style="color: #51afef;">(</span><span style="color: #a9a1e1;">advice-add</span> <span style="color: #51afef;">'</span><span style="color: #ECBE7B;">org-html-src-block</span> <span style="color: #c678dd;">:filter-return</span> <span style="color: #51afef;">#'</span><span style="color: #ECBE7B;">my/org-html-src-block</span><span style="color: #51afef;">)</span>
+</code></pre>
+</div>
+
+<p>
+We can use advice-add to modify the output of org-html-src-block so that it is compatible with highlight.js
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<div class="navigation">
+<font size="-1">
+	    <div class="footer"></div>
+            <center>
+
+<a href="index.html">Go to home page</a>
+<script>hljs.highlightAll();</script>
+            </center>
+	    </div>
+    </font>
+</div>
+</div>
+</body>
+</html>
