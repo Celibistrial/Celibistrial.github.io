@@ -16,9 +16,9 @@
 <div id="content" class="content">
 <h1 class="title">My Projects</h1>
 
-<div id="outline-container-orgd25bd29" class="outline-2">
-<h2 id="orgd25bd29"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h2>
-<div class="outline-text-2" id="text-orgd25bd29">
+<div id="outline-container-org76555c7" class="outline-2">
+<h2 id="org76555c7"><a href="https://github.com/Celibistrial/freelook">Freelook</a></h2>
+<div class="outline-text-2" id="text-org76555c7">
 <p>
 This is my most popular project with over <code>55k</code> downloads.
 </p>
@@ -28,9 +28,9 @@ It is a Minecraft mod which allows you to "move your head without changing the d
 </p>
 </div>
 </div>
-<div id="outline-container-orga044e27" class="outline-2">
-<h2 id="orga044e27"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h2>
-<div class="outline-text-2" id="text-orga044e27">
+<div id="outline-container-orgea80d66" class="outline-2">
+<h2 id="orgea80d66"><a href="https://github.com/Celibistrial/Celiboard">Celiboard</a></h2>
+<div class="outline-text-2" id="text-orgea80d66">
 <p>
 Currently a <b>WIP</b>
 </p>
@@ -41,9 +41,9 @@ Aims to recreate the windows clipboard manager on UNIX systems (when i first swi
 </div>
 </div>
 
-<div id="outline-container-orgdc6b2ae" class="outline-2">
-<h2 id="orgdc6b2ae"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h2>
-<div class="outline-text-2" id="text-orgdc6b2ae">
+<div id="outline-container-orgac9a6cd" class="outline-2">
+<h2 id="orgac9a6cd"><a href="https://github.com/Celibistrial/discord_tui">Discord TUI</a></h2>
+<div class="outline-text-2" id="text-orgac9a6cd">
 <p>
 An abandoned project(might work on it in the future if i feel like  it)
 </p>
@@ -54,9 +54,9 @@ Tried to write a tui in rust for discord(i quickly learnt its <code>very</code> 
 </div>
 </div>
 
-<div id="outline-container-orgf15478e" class="outline-2">
-<h2 id="orgf15478e"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h2>
-<div class="outline-text-2" id="text-orgf15478e">
+<div id="outline-container-orga457a52" class="outline-2">
+<h2 id="orga457a52"><a href="https://github.com/Celibistrial/Frictionless">Frictionless</a></h2>
+<div class="outline-text-2" id="text-orga457a52">
 <p>
 Also a minecraft mod which removes friction from minecraft(basically works like a hack lol)
 </p>
