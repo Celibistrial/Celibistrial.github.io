@@ -18,25 +18,64 @@
 <div id="content" class="content">
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .round{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+     padding: 10px;
+      position: relative;
+  z-index: 1;
+   transition: all 0.3s ease-in-out;
+    }
+    .round::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(33, 33, 33, 0), rgba(33, 33, 33, 1));
+  border-radius: 50%;
+}
+.round:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+</style>
+    <div class="image-container">
+      <img class="round"
+        src="https://orgmode.org/resources/img/org-mode-unicorn.svg"
+        width="100"
+      />
+    </div>
+<div id="outline-container-orgb1581fe" class="outline-2">
+<h2 id="orgb1581fe">Hello there 👋</h2>
+<div class="outline-text-2" id="text-orgb1581fe">
 
-<div id="outline-container-orgc4ae720" class="outline-2">
-<h2 id="orgc4ae720">Hello there 👋</h2>
-<div class="outline-text-2" id="text-orgc4ae720">
+Hello there , I am <div class="tooltip">Celi<span class="tooltiptext">Short for Celibistrial</span></div>
+you have <b>miraculously</b> landed on my website
 <p>
-Hello there , I am Celi, you have <del>miraculously</del> landed on my website
 This <span class="underline">website</span> is <b>completely</b> written with <a href="https://orgmode.org">Org Mode!</a>
 </p>
 </div>
 </div>
-<div id="outline-container-orgbd18bb9" class="outline-2">
-<h2 id="orgbd18bb9"><a href="My projects.html">My Projects</a></h2>
+<div id="outline-container-org19878e7" class="outline-2">
+<h2 id="org19878e7"><a href="My projects.html">My Projects</a></h2>
 </div>
 
-<div id="outline-container-org9f243e7" class="outline-2">
-<h2 id="org9f243e7"><a href="peculiar articles.html">Peculiar Articles</a></h2>
+<div id="outline-container-org5edd4a9" class="outline-2">
+<h2 id="org5edd4a9"><a href="peculiar articles.html">Peculiar Articles</a></h2>
 </div>
-<div id="outline-container-orgee5d100" class="outline-2">
-<h2 id="orgee5d100"><a href="actually useful articles.html">Useful Articles</a></h2>
+<div id="outline-container-orgf00d53f" class="outline-2">
+<h2 id="orgf00d53f"><a href="actually useful articles.html">Useful Articles</a></h2>
 </div>
 </div>
 </body>
