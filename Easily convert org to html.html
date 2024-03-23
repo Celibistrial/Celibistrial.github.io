@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How to easily convert org to html</title>
+<meta name="author" content="Gaurav Choudhury" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+<script type="text/javascript">
+    function goBack() {
+        window.history.back();
+    }
+</script>
+<link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/obsidian.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/lisp.min.js"></script>
+<script src="particles.min.js"></script>
+<div id="particles-js"></div>
+
+<!-- particlesJS.load('particles-js', "particlesjs-config.json"); -->
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">How to easily convert org to html</h1>
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2024-01-23 Tue]</span></span>
+</p>
+
+<p>
+Easy snippet to convert any org document to html
+</p>
+<ul class="org-ul">
+<li>put css files in <code>~/.emacs.d/org-css/</code> (or change org-theme-css-dir)</li>
+<li>run <code>toggle-org-custom-inline-style</code> in a org buffer associated with a file</li>
+<li><code>C-c C-e</code> to export to html , it should ask you for a theme now</li>
+</ul>
+
+<div class="org-src-container">
+<pre><code class="emacs-lisp"><span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">put your css files there</span>
+(<span style="font-weight: bold;">defvar</span> <span style="font-weight: bold; font-style: italic;">org-theme-css-dir</span> <span style="font-style: italic;">"~/.emacs.d/org-css/"</span>)
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">toggle-org-custom-inline-style</span> ()
+  (<span style="font-weight: bold;">interactive</span>)
+  (<span style="font-weight: bold;">let</span> ((hook 'org-export-before-parsing-hook)
+        (fun 'set-org-html-style))
+    (<span style="font-weight: bold;">if</span> (memq fun (eval hook))
+        (<span style="font-weight: bold;">progn</span>
+          (remove-hook hook fun 'buffer-local)
+          (message <span style="font-style: italic;">"Removed %s from %s"</span> (symbol-name fun) (symbol-name hook)))
+      (add-hook hook fun nil 'buffer-local)
+      (message <span style="font-style: italic;">"Added %s to %s"</span> (symbol-name fun) (symbol-name hook)))))
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">org-theme</span> ()
+  (<span style="font-weight: bold;">interactive</span>)
+  (<span style="font-weight: bold;">let*</span> ((cssdir org-theme-css-dir)
+         (css-choices (directory-files cssdir nil <span style="font-style: italic;">".css$"</span>))
+         (css (completing-read <span style="font-style: italic;">"theme: "</span> css-choices nil t)))
+    (concat cssdir css)))
+
+(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">set-org-html-style</span> (<span style="font-weight: bold; text-decoration: underline;">&amp;optional</span> backend)
+  (<span style="font-weight: bold;">interactive</span>)
+  (<span style="font-weight: bold;">when</span> (<span style="font-weight: bold;">or</span> (null backend) (eq backend 'html))
+    (<span style="font-weight: bold;">let</span> ((f (<span style="font-weight: bold;">or</span> (<span style="font-weight: bold;">and</span> (boundp 'org-theme-css) org-theme-css) (org-theme))))
+      (<span style="font-weight: bold;">if</span> (file-exists-p f)
+          (<span style="font-weight: bold;">progn</span>
+            (set (make-local-variable 'org-theme-css) f)
+            (set (make-local-variable 'org-html-head)
+                 (<span style="font-weight: bold;">with-temp-buffer</span>
+                   (insert <span style="font-style: italic;">"&lt;style type=\"text/css\"&gt;\n&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/\n"</span>)
+                   (insert-file-contents f)
+                   (goto-char (point-max))
+                   (insert <span style="font-style: italic;">"\n/*]]&gt;*/--&gt;\n&lt;/style&gt;\n"</span>)
+                   (buffer-string)))
+            (set (make-local-variable 'org-html-head-include-default-style)
+                 nil)
+            (message <span style="font-style: italic;">"Set custom style from %s"</span> f))
+        (message <span style="font-style: italic;">"Custom header file %s doesnt exist"</span>)))))
+</code></pre>
+</div>
+<p>
+PS: picked up this snippet from <a href="https://www.reddit.com/r/emacs/comments/3pvbag/is_there_a_collection_of_css_styles_for_org/">u/aaptel</a> just wrote this so others can find this snippet easier
+</p>
+</div>
+<div id="postamble" class="status">
+<div class="navigation">
+    <font size="-1">
+        <div class="footer"></div>
+        <center>
+            <a href="index.html">Go to home page</a>
+            <script>hljs.highlightAll();</script>
+        </center>
+    </font>
+</div>
+</div>
+</body>
+</html>
